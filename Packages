@@ -1,0 +1,291 @@
+Package: com.linusyang.appinst
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 392
+Pre-Depends: firmware (>= 5.0)
+Depends: net.angelxwind.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Filename: ./debs/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
+Size: 121132
+MD5sum: d9fab82d603b92dd165fd421bc578051
+SHA1: e21bc113283e70a8864570816db020368a48e9ef
+SHA256: 67bff469a5089b892ec62a335dde115a740b3f4750b746ba9dace7ef769a72e1
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: Install IPAs from the command line
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
+Name: appinst (App Installer)
+
+Package: com.mins.imessageplugin
+Version: 0.0.1-733+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Installed-Size: 63928
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl,com.opa334.altlist
+Filename: ./debs/com.mins.imessageplugin_0.0.1-733+debug_iphoneos-arm.deb
+Size: 20242618
+MD5sum: 90a308b771600e250e20df43a1202ab2
+SHA1: 7e30f267971138ddd5d1a85be48eda364e86cced
+SHA256: 2e628308b194019d864e68a5c4e895b2b9b640e6dbc69b0364359019fef0c754
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Mins
+Name: iMessagePlugin
+
+Package: com.mins.ipainstaller
+Version: 3.4.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 188
+Pre-Depends: firmware (>= 4.0), gsc.armv7
+Filename: ./debs/com.mins.ipainstaller.deb
+Size: 40298
+MD5sum: 0a531f4acce3de82cd3fd0e1f90ac35b
+SHA1: 97d9ea9bf0d601b08f059cd901a0950cb340c7a4
+SHA256: 92a29b48261d9038ff0063a56e219997a6057b2d5ba05a02a7dc1c957a881078
+Section: Utilities
+Priority: optional
+Description: Install IPA from the command line.
+Tag: role::enduser, purpose::console
+Author: Merlin
+Depiction: https://mezii.github.io/mkapp/depictions/?p=com.mins.ipainstaller
+Dev: lonelystars
+Name: IPA Installer Console
+Sponsor: thebigboss.org <http://thebigboss.org/>
+
+Package: com.mins.minitube
+Version: 0.0.1-1027+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Installed-Size: 31728
+Depends: mobilesubstrate,com.rpetrich.rocketbootstrap,zip,unzip,openssh,com.tigisoftware.appdatamanager,com.tigisoftware.filza
+Filename: ./debs/com.mins.minitube_0.0.1-1027+debug_iphoneos-arm.deb
+Size: 10068518
+MD5sum: d6bac0a4811999c55eb58410399e195d
+SHA1: 6a5cc459836c849e04e93b0b42d7f5a381b402c5
+SHA256: 0aece7370dde5cc074b4585b89dded311a24862e62b2ac7229329231c71733a4
+Section: System
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: Mins
+Name: minitube
+
+Package: com.mins.ttweak
+Version: 0.0.1-1482+debug
+Architecture: iphoneos-arm
+Maintainer: Mins
+Installed-Size: 80956
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl,com.opa334.altlist,com.opa334.libsandy,com.opa334.crane,com.opa334.libundirect
+Filename: ./debs/com.mins.ttweak_0.0.1-1482+debug_iphoneos-arm.deb
+Size: 25036004
+MD5sum: fdbe085aded4c1a51ae28ade8b216754
+SHA1: 94e03cf5935fd8b79b3ed8c23168c2b79a7de4bf
+SHA256: 89cc4c23bff52615dc40e614f6c6d4507b1cc48969a032072e154c053c5f3fd2
+Section: System
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: Mins
+Name: TTweak
+
+Package: com.opa334.altlist
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 305
+Depends: firmware (>= 7.0)
+Filename: ./debs/com.opa334.altlist_1.0.7_iphoneos-arm.deb
+Size: 73008
+MD5sum: 1eb7f7e324a213d94f2890eee2474425
+SHA1: b2300dc7d0e402c21bca1189a43baf26bc9041fd
+SHA256: 57fab75f0c60367916a8bfd785def46a4c324d4d1752568303b43f35f75480dd
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Description: A modern AppList alternative
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Dev: opa334
+Name: AltList
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.crane
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 3376
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.1_iphoneos-arm.deb
+Size: 923842
+MD5sum: 9f7b060f964b2c04a620062ce7ac8e9c
+SHA1: 8f6bfb56c8923c8404983d9f9b6fe105cec2129e
+SHA256: 29dca09e7764548577b2d9dda35e98ae9b9b452123b9a5b59b826406dbe2b121
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
+
+Package: com.opa334.libsandy
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 576
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.0.2_iphoneos-arm.deb
+Size: 51266
+MD5sum: 5b4d06409a3bd8a03f2c6fdd61ba43d7
+SHA1: 50dd9a38d4f10b3e7e854c3ad51466ab6e40636c
+SHA256: 348c7214899f2d8b74dee7da646864b5fef8802e574b921754c2123477cd27c3
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: Securely extend the sandbox of system processes and user applications
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.libundirect
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 307
+Filename: ./debs/com.opa334.libundirect_1.1.3_iphoneos-arm.deb
+Size: 16098
+MD5sum: 6373d96cc131c5cefecbc30061b22cbf
+SHA1: 60c5eb7455267fb5458fdb0a3fe6b14053fe2e0d
+SHA256: 953e771741cb909633e888c46803e554a2ee6f2a0383830ba13081d5c8a8c965
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Dev: opa334
+Name: libundirect
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6005
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Size: 22896
+MD5sum: e5fb75f47bc7837b8ae83d862fec494b
+SHA1: 9867cde91eaaba2dd77af8217ac29492a83897fd
+SHA256: b714c2aabe25bd7bad5a2127d1af3febd40287732f7148db21fe0e2187236ab2
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
+
+Package: com.vsz.redeb
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: T.Herak <50dc856b@opayq.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Filename: ./debs/com.vsz.redeb_1.0.3_iphoneos-arm.deb
+Size: 3562
+MD5sum: 087241b172ad37513142936145dd9065
+SHA1: 3951020415c6f47ea2e5b1ca1d7377a684c70ed4
+SHA256: 1188965f8ef48ad81aaacc945b893ad3af94029ec2974fb17697d85a5ac9f035
+Section: Utilities
+Priority: extra
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :)))
+Author: T.Herak <50dc856b@opayq.com>
+Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.redeb
+Name: redeb
+
+Package: jetslammed
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Mario Ciabarra <https://github.com/mariociabarra/jetslammed>
+Depends: firmware (>= 7)
+Filename: ./debs/jetslammed_1.2_iphoneos-arm.deb
+Size: 12388
+MD5sum: 7f267fd2efb7b7dcfcceecc59cdacf1d
+SHA1: 5dce5e8eab54a3fb9fae3692a36c96ec21f870d0
+SHA256: c04eb54da130b21e9660b3092fd34735b69535a8a4ad7ca6360cfa59749cfe72
+Section: Utilities
+Description: Library for modifying jetsam memory limits per process
+Author: Mario Ciabarra <https://github.com/mariociabarra/jetslammed>
+Depiction: http://modmyi.com/info/jetslammed.d.php
+Name: Jetslammed
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: mobilesubstrate
+Version: 0.9.7113
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: ./debs/mobilesubstrate_0.9.7113_iphoneos-arm.deb
+Size: 8642806
+MD5sum: 70b9c1164c6642a8b3b0270a4086ef56
+SHA1: e134e3cc5358ff0f9dfb4b507d06bdaa1fb329d4
+SHA256: 5326814810adee289fd10d5023cbf771d88be84afdb56b99399af39539763140
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: net.angelxwind.appsyncunified
+Version: 104.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 732
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_104.0_iphoneos-arm.deb
+Size: 58592
+MD5sum: 5ad2f87d8cfefc504624c045babcb7b3
+SHA1: d42e140247c05e7901a6b77eb982167bfd9dd544
+SHA256: df963b0d83215d326732af4e6b6b47e1051ff3a172de181017d19fb32cecfb19
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: net.kenhtao.autotouch.inputtext
+Version: 7.0.33-1
+Architecture: iphoneos-arm
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 107052
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.9)
+Conflicts: net.kenhtao.libat, net.kenhtao.autotouch, com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/net.kenhtao.autotouch.inputtext_7.0.33-1_iphoneos-arm.deb
+Size: 47843354
+MD5sum: 3952d12b3026c4f2d8ebc9aeafb521ae
+SHA1: a722d0eef6405c197de6e1e970e40dbc1914cfa8
+SHA256: 3f4de82568b04bf52fc151351b23e7ba25f45a84297323a6f9efb7d3f91feaea
+Section: Utilities
+Priority: optional
+Homepage: https://autotouch.net/
+Description: AutoClick cho iOS.
+Author: Kent Krantz <kentkrantz@gmail.com>
+Depiction: https://repo.kenhtao.net/view/7824
+Icon: file:///Applications/Cydia.app/Sections/tienich.png
+Name: AutoTouch with inputText VN
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.autotouch.inputtext
+
